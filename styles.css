@@ -1,0 +1,46 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.cabecera{
+    width:100%;
+    background-color: burlywood;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.feed{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+}
+.post >*{
+    padding-right:20px;
+    padding-left:20px;
+}
+.post{
+    background-color:floralwhite;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    margin-bottom: 50px;
+    width:33%;
+}
+.post-header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.post-date{
+    color:darkgray;
+}
+.post-image{
+    max-width:fit-content;
+
+}
+.post-description{
+    background-color:floralwhite;
+}
